@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $("#backend").click(function(){
+    $("#frontend-content").hide(600);
+    $("#development-content").hide(600);
+    $("#backend-content").show(1000);
+  });
+  $("#frontend").click(function(){
+    $("#backend-content").hide(600);
+    $("#development-content").hide(600);
+    $("#frontend-content").show(1000);
+  });
+  $("#development").click(function(){
+    $("#backend-content").hide(600);
+    $("#frontend-content").hide(600);
+    $("#development-content").show(1000);
+  });
+});
