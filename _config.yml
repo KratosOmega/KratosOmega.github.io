@@ -12,7 +12,7 @@ url: "https://KratosOmega.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /main
+baseurl: 
 
 # Google tracking id
 
