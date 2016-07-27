@@ -47,6 +47,8 @@
   color:RGB(249,249,243);
 }
 
+
+
 /* same line left & right align */
 .alignLeft {
   float: left;
@@ -78,6 +80,29 @@ Make the list to be fixed height
 
 .extend-fix-height{
   height: 800px;
+}
+
+
+/* mobile nav-text left-center-right align */
+.mobile-nav-container{
+  position: relative;
+
+}
+
+.mobile-nav-left{
+  color: RGB(0,238,103);
+}
+
+.mobile-nav-center{
+
+}
+
+.mobile-nav-right{
+  color: RGB(0,238,103);
+}
+
+.mobile-nav-text{
+  color: white;
 }
 
 
